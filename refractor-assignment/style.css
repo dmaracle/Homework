@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #189bdd;
+}
+
+/*First couple classes in the header section*/
+header {
+    padding: 17px;
+    padding-top: 5px;
+    background-color: #189bdd;
+    color: whitesmoke;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.box1 {
+    text-align: center;
+    height: 130px;
+    padding-top: 0px;
+}
+
+.box1 ul {
+    margin-top: -12px;
+    margin-bottom: 1rem;
+}
+
+/*Title tags*/
+h1 {
+    display: inline-block;
+    font-size: 70px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    letter-spacing: 3px;
+    text-decoration: white underline overline;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px !important;
+    font-size: 35px !important;
+    text-decoration: bold;
+    height: 15px !important;
+    padding-top: -30px !important;
+    margin-top: 0px !important;
+    text-decoration-line: underline;
+}
+
+h3 {
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    text-indent: 60px;
+}
+
+/*Restructuring basic font*/
+a {
+    color: white !important;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    text-indent: -30px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 40px;
+    word-spacing: 3px;
+    padding-bottom: 0px;
+    text-indent: 50px;
+}
+
+.benefits p {
+    color: white;
+}
+
+/*Borders*/
+header, .hero, .benefits, .search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(0, 19, 128);
+}
+
+/*Three boxes on the left >>content<<*/
+.content {
+    width: 1000px;
+    display: inline-block;
+    margin-left: 0px;
+    height: 1050px;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+
+/*Long side column on the right >>benefits<<*/
+.benefits {
+    padding: 10px;
+    margin-right: 20px;
+    clear: both;
+    float: right;
+    margin-top: 15px;
+    padding-right: 15px;
+    width: 30%;
+    height: 1050px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*The three boxes on the left*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    max-width: 1000px !important;
+    margin-bottom: 25px;
+    margin: 20px;
+    padding: 17px;
+    height: 325px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Main image on the home screen*/
+.hero {
+    height: 800px;
+    width: 100%;
+    background-image: url("./Refractor-Images/digital-marketing-meeting.jpg");
+    background-size: cover;
+}
+
+/*3 Pictures in the long column on the right*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img  {
+    display: block;
+    margin: 5px auto;
+    max-width: 125px;
+}
+
+/*Controlling/resizing all the images in a few lines instead of many*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img, .benefit-lead img, .benefit-brand img, .benefit-cost img {
+    max-height: 250px;
+    border-style: ridge;
+    border-color: whitesmoke;
+}
+
+.footer {
+    text-align: center;
+    margin: 20px;
+}
+
+/*spreading the words out from the pictures with margin*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img { 
+    margin: 10px; 
+}
+
+/*random 1 liners I felt couldn't be orgazzed to well*/
+.search-engine-optimization, .social-media-marketing { text-indent: 60px; }
+
+.footer p { text-decoration: underline; }
+
+hr {  background: whitesmoke; }
+
